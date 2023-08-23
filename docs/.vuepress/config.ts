@@ -14,5 +14,13 @@ export default defineUserConfig({
     navbar,
     sidebar,
     lastUpdatedText: "Обновлено",
+    editLink: false,
+    contributors: false,
+    backToHome: "В начало",
+    notFound: [
+      "Что-то пошло не так...",
+      "Здесь ничего нет. Совсем ничего:(",
+      "Кажется, ссылка сломалась:(",
+    ],
   }),
 });

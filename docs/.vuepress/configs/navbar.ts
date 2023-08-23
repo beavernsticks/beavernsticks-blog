@@ -3,7 +3,7 @@ import type { NavbarConfig } from "@vuepress/theme-default";
 export const navbar: NavbarConfig = [
   {
     text: "О разработчике",
-    children: ["/about"],
+    link: "/about",
   },
   {
     text: "API-клиенты",
@@ -32,5 +32,9 @@ export const navbar: NavbarConfig = [
       "/moleculer/moleculer-wildberries",
       "/moleculer/moleculer-yandex-market",
     ],
+  },
+  {
+    text: "Статьи",
+    link: "/blog"
   },
 ];
