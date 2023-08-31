@@ -3,7 +3,7 @@ import { navbar, sidebar } from "./configs";
 
 export default defineUserConfig({
   lang: "ru-RU",
-  title: "Из бобра и палок: Документация",
+  title: "Из бобра и палок",
   description: "Документация по всем продуктам разработчика beavernsticks",
 
   theme: defaultTheme({
